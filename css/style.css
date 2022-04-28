@@ -15,6 +15,12 @@
   grid-column: 2 / 3;
 }
 
+.cat-profile-img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
 .sidebar {
   background-color: #FF7755;
   grid-row: 1 / 3;
