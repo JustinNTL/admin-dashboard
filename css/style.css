@@ -15,10 +15,11 @@
   grid-column: 2 / 3;
 }
 
-.cat-profile-img {
+.small-icon {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
+  background-color: white;
 }
 
 .sidebar {
