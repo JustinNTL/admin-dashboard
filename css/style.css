@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -15,6 +16,10 @@
   grid-column: 2 / 3;
 }
 
+li {
+  list-style: none;
+}
+
 .small-icon {
   height: 3rem;
   width: 3rem;
@@ -23,8 +28,46 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #60A5FA;
   grid-row: 1 / 3;
+}
+
+.dashboard-icon-main, 
+.dashboard-icons-top, 
+.dashboard-icons-bottom{
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  row-gap: 1rem;
+  padding-bottom: 4rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.dashboard-icon-main {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  column-gap: .5rem;
+}
+
+.dashboard-icon-main > li > img {
+  height: 3rem;
+}
+
+.dashboard-icons-top, 
+.dashboard-icons-bottom {
+  padding-left: 1.5rem;
+  column-gap: 1rem;
+}
+
+.dashboard-icons-top > li > img, 
+.dashboard-icons-bottom > li > img {
+  height: 2rem;
+}
+
+.sidebar > ul > li > a {
+  text-decoration: none;
+  color: white;
 }
 
 .main-content {
