@@ -13,21 +13,30 @@
   <div class="container">
 
     <div class="header">
-      <img src="img/magnify.svg" alt="search icon">Search Bar
-      <ul>
-        <li><img src="img/bell-ring-outline.svg" alt="alerts icon"></li>
-        <li><img src="img/cute-happy-white-cat-playing-yarn-ball-vector.jpg" 
-          alt="cute cat playing with yarn" class="cat-profile-img small-icon"></li>
-        <li>Profile Name</li>
-      </ul>
-      <img src="img/cute-happy-white-cat-playing-yarn-ball-vector.jpg" 
-        alt="cute cat playing with yarn" class="cat-profile-img small-icon">Profile Pic 
-      <p>Hi there,<br>Profile Name (@nameshorthand)</p>
-      <ul>
-        <li>New</li>
-        <li>Upload</li>
-        <li>Share</li>
-      </ul>
+      <div class="header-top">
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+          <button type="submit" class="search-btn"><img src="img/magnify.svg" alt="search icon"></button>
+          <div><input type="search" name="q" class="search-box"></div>
+        </form>
+        <ul class="header-top-list">
+          <li><img src="img/bell-ring-outline.svg" alt="alerts icon"></li>
+          <li><img src="img/cute-happy-white-cat-playing-yarn-ball-vector.jpg"
+            alt="cute cat playing with yarn" class="cat-profile-img small-icon"></li>
+          <li>Jeff Musk</li>
+        </ul>
+      </div>
+      <div class="header-bottom">
+        <div class="header-bottom-profile">
+          <img src="img/cute-happy-white-cat-playing-yarn-ball-vector.jpg"
+            alt="cute cat playing with yarn" class="cat-profile-img small-icon">
+          <p>Hi there,<br><span class="profile-name">Jeff Musk (@therealmusk)</span></p>
+        </div>
+        <ul class="header-bottom-list">
+          <li><button class="header-bottom-btns">New</button></li>
+          <li><button class="header-bottom-btns">Upload</button></li>
+          <li><button class="header-bottom-btns">Share</button></li>
+        </ul>
+      </div>
     </div>
 
     <div class="sidebar">
