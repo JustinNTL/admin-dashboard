@@ -312,3 +312,27 @@ li {
 .card-side-bottom {
   box-shadow: rgba(0, 0, 0, .2) 2px 2px 4px;
 }
+
+@media only screen and (min-width: 1700px) and (min-height: 1000px){
+  .header-bottom-profile,
+  .header-top-list,
+  .header-bottom-btns,
+  .dashboard-icon-main, 
+  .dashboard-icons-top, 
+  .dashboard-icons-bottom,
+  .card-section-header,
+  .title,
+  .card-section-side-header-top,
+  .card-section-side-header-bottom,
+  .title-side-top {
+    font-weight: 700;
+  }
+
+  .card-side-bottom-profile-us {
+    font-weight: 500;
+  }
+
+  .card-side-bottom-profile-caption {
+    font-weight: 400;
+  }
+}
